@@ -1,0 +1,23 @@
+.root {
+
+    /* APARIENCIA */
+    max-width: 300rem;
+    height: 100vmax;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    /*Posición y posición de hijos */
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+
+    /*Comportamiento*/
+
+
+}
+
+.root > h1 {
+    font-size: 2rem;
+
+    text-align: center;
+}
