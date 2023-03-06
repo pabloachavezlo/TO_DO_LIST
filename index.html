@@ -8,8 +8,13 @@
 
     <!-- Archivos de diseño -->
     <link rel="stylesheet" href="./css/confif.css">
-    <link rel="stylesheet" href="./css/todo_lis.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/todo_item.css">
+
+
+    <!-- Archivos de font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@600&family=Pacifico&family=Quicksand:wght@300;500;600;700&family=Roboto&family=Rubik:wght@300;400&family=Sassy+Frass&family=Tilt+Neon&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
     <!-- Final -->
     
 </head>
@@ -18,17 +23,17 @@
     
     <div class="root">
         
-        <h1>TO DO 0.1</h1>
+        <h1 class="Titulo" id="Titulo">TO DO 0.1</h1>
 
-        <div class="todo_item">
-            <span class="icono">¤</span>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-            <span class="icono2">X</span>
-        </div>
+        <main class="todo_listt"></main>
 
+        <button class="boton">
+            <span>+</span>
+        </button>
     </div>
+
+    <script src="./js/index.js" type="module"></script>
+
 
 </body>
 </html>

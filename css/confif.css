@@ -4,7 +4,15 @@
     box-sizing: border-box;
 }
 
-html {
+
+
+:root {
+    --color1:  rgb(27, 20, 20);
+    --color2:  rgb(0, 0, 46);
+    --color3:  aliceblue;
+}
+
+html, body {
     font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Tilt Neon', cursive;
 }
