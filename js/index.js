@@ -19,14 +19,13 @@ function imprimir_todoes (){
     });
 }
 
-function nueva_tarea () {
-    DATA.push("nueva tarea");
-    caja_de_todos.innerHTML = "";
-    imprimir_todoes();
+function modal(){
+    document.querySelector(".modal").classList.add("activar");
 }
 
+
 let boton = document.querySelector(".boton");
-boton.addEventListener("click", nueva_tarea)
+boton.addEventListener("click", modal)
 
 
 imprimir_todoes();

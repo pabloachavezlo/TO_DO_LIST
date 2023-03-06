@@ -6,6 +6,7 @@
     border: 1px solid black;
     border-radius: 4px;
 
+
     /*Posición y posición de hijos */
     margin: auto;
     margin-top: 1rem;
@@ -19,4 +20,24 @@
 .root > h1 {
     font-size: 3rem;
     text-align: center;
+    margin: 5rem 0rem;
+}
+
+.modal {
+    width: 70%;
+    height: 15rem;
+    background-color: var(--color2);
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    display: none;
+}
+
+.activar {
+    display: block;
 }

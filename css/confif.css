@@ -2,17 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--color4);
 }
 
 
 
 :root {
     --color1:  rgb(27, 20, 20);
-    --color2:  rgb(0, 0, 46);
-    --color3:  aliceblue;
+    --color2:  black;
+    --color3:  rgb(0, 0, 46);
+    --color4:  aliceblue;
+    --color5:  darkred;
 }
 
-html, body {
+html {
     font-size: 10px;
     font-family: 'Tilt Neon', cursive;
+}
+
+body {
+    font-size: 10px;
+    font-family: 'Tilt Neon', cursive;
+    background-color: var(--color5);
 }
