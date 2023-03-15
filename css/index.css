@@ -23,10 +23,36 @@
     margin: 5rem 0rem;
 }
 
+.boton {
+    border:0;
+    border-radius: 100%;
+    background-color: var(--color2);
+    height: 6rem;
+    width: 6rem;
+
+
+    position: absolute;
+    right: 5rem;
+    bottom: 3rem;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton > span {
+    font-size: 3rem;
+    font-weight: 600;
+    color:var(--color4);
+}
+
 .modal {
     width: 70%;
     height: 15rem;
-    background-color: var(--color2);
+    background-color: var(--color4);
+    box-shadow: 0px 4px 4px var(--color5);
 
     position: absolute;
     top:0;
@@ -35,9 +61,38 @@
     right: 0;
     margin: auto;
 
+    border: 1px solid var(--color2);
+    border-radius: 8px;
+
     display: none;
+    flex-direction: column;
 }
 
 .activar {
+    display: flex;
+    transition: 0.5s;
+}
+
+.btn_cerrartarea {
+    color: var(--color2);
+    align-self: end;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.txt {
     display: block;
+    height: 8rem;
+    margin-bottom: 1.5rem;
+    
+    font-size: 1.5rem;
+
+    outline: none;
+}
+.btn_tarea {
+    margin-top: 8rem;
+    color: var(--color2);
+    margin: 0rem 8rem;
+    cursor: pointer;
+    width: 5rem;
 }

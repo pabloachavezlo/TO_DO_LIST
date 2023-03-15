@@ -1,32 +1,29 @@
 // Librería
-import { item_componente } from "./componente_item.js";
-import { DATA } from "./DATA.js";
-
-// Función para imprimir cada elemento de la lista de tareas
-let caja_de_todos = document.querySelector(".todo_listt")
-
-// Función 
-function imprimir_todoes (){
-
-    DATA.forEach((element, indice) => {
-
-        let todo = document.createElement("div");
-
-        todo.innerHTML = item_componente(indice);
-
-        caja_de_todos.appendChild(todo)
-
-    });
-}
-
-function modal(){
-    document.querySelector(".modal").classList.add("activar");
-}
-
-
-let boton = document.querySelector(".boton");
-boton.addEventListener("click", modal)
+import { imprimir_todoes } from "./cargar_los_todos.js";
 
 
 imprimir_todoes();
 
+// Función 
+function nueva_tarea() {
+    let mensaje = document.querySelector(".texto").value;
+
+    DATA.push (
+        {
+            id: 11111,
+            mensaje: "Pepepe",
+            estado: true
+        },
+    );
+
+    document.querySelector(".todo_listt").innerHTML = "";
+
+    imprimir_todoes();
+
+    document.querySelector(".modal").classList.remove("activar");
+
+    document.querySelector(".txt").value = " ";
+
+}
+
+document.querySelector(".btn_tarea");

@@ -1,26 +1,26 @@
-export let DATA = [
+let DATA = [
   
     {
         id: 11111,
-        nombre: "Pepepe",
+        mensaje: "Pepepe",
         estado: true
     },
 
     {
         id: 22222,
-        nombre: "PepA",
+        mensaje: "PepA",
         estado: false
     },
 
     {
         id: 33333,
-        nombre: "Papera",
+        mensaje: "Papera",
         estado: true
     },
 
     {
         id: 44444,
-        nombre: "Papelera",
+        mensaje: "Papelera",
         estado: true
     },
 
