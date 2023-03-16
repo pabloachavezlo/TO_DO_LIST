@@ -7,6 +7,7 @@ boton.addEventListener("click", modal);
 
 function cerrar (){
     document.querySelector(".modal").classList.remove("activar");
+    document.querySelector(".txt").value = "";
 }
 
 let close = document.querySelector(".btn_cerrartarea");

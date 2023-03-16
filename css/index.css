@@ -41,6 +41,9 @@
     justify-content: center;
     align-items: center;
 }
+.boton:hover {
+    background-color: var(--color6);
+}
 
 .boton > span {
     font-size: 3rem;
@@ -51,8 +54,8 @@
 .modal {
     width: 70%;
     height: 15rem;
-    background-color: var(--color4);
-    box-shadow: 0px 4px 4px var(--color5);
+    background-color: var(--color5);
+    box-shadow: 0px 4px 4px var(--color2);
 
     position: absolute;
     top:0;
@@ -74,25 +77,35 @@
 }
 
 .btn_cerrartarea {
-    color: var(--color2);
+    color: var(--color4);
     align-self: end;
     font-size: 2rem;
     margin: 1rem;
+
+    cursor: pointer;
 }
 
 .txt {
-    display: block;
-    height: 8rem;
+    height: 10rem;
     margin-bottom: 1.5rem;
     
     font-size: 1.5rem;
 
     outline: none;
+    background-color: var(--color2);
 }
-.btn_tarea {
-    margin-top: 8rem;
-    color: var(--color2);
-    margin: 0rem 8rem;
+.btn-tarea {
+    color: var(--color4);
+    font-size: 2rem;
+    margin: 1rem;
+
+    align-self: end;
+    border: 2px solid black;
     cursor: pointer;
-    width: 5rem;
+}
+
+.completar {
+    text-decoration: line-through;
+    color: var(--color5);
+
 }

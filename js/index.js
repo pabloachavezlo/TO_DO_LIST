@@ -1,8 +1,8 @@
 // Librería
 import { imprimir_todoes } from "./cargar_los_todos.js";
 
-
 imprimir_todoes();
+completar_tarea();
 
 // Función 
 function nueva_tarea() {
