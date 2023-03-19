@@ -1,5 +1,5 @@
 export function item_componente (numero_tarea) {
-    let item_componente = `
+    let item = `
     <div class="todo_item">
         <span class="icono">¤</span>
         <p class="tarea${numero_tarea}">
@@ -9,6 +9,6 @@ export function item_componente (numero_tarea) {
     </div>
     `;
 
-    return item_componente;
+    return item;
 
 }

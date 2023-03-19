@@ -3,8 +3,7 @@
     /* APARIENCIA */
     max-width: 40rem;
     height: 100vh;
-    border: 1px solid black;
-    border-radius: 4px;
+
 
 
     /*Posición y posición de hijos */
@@ -20,10 +19,17 @@
 .root > h1 {
     font-size: 3rem;
     text-align: center;
-    margin: 5rem 0rem;
+
+    margin-top: 8rem;
 }
 
-.boton {
+.root > h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 1rem;
+}
+
+.boton_x {
     border:0;
     border-radius: 100%;
     background-color: var(--color2);
@@ -41,11 +47,11 @@
     justify-content: center;
     align-items: center;
 }
-.boton:hover {
+.boton_x:hover {
     background-color: var(--color6);
 }
 
-.boton > span {
+.boton_x > span {
     font-size: 3rem;
     font-weight: 600;
     color:var(--color4);

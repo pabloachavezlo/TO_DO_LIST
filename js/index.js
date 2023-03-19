@@ -6,12 +6,12 @@ completar_tarea();
 
 // Función 
 function nueva_tarea() {
-    let mensaje = document.querySelector(".texto").value;
+    let mensaje = document.querySelector(".txt").value;
 
     DATA.push (
         {
             id: 11111,
-            mensaje: "Pepepe",
+            mensaje: mensaje,
             estado: true
         },
     );
@@ -26,4 +26,4 @@ function nueva_tarea() {
 
 }
 
-document.querySelector(".btn_tarea");
+document.querySelector(".btn-tarea").addEventListener("click", nueva_tarea);
